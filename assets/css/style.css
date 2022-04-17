@@ -52,38 +52,51 @@ a {
     bottom: 300px;
 }
 
+.profile {
+    margin: 100px auto;
+}
+
 .profile-pic {
     height: 300px;
     width: 300px;
 }
 
-.skill-pic {
-    height: 200px;
-    width: 200px;
+.skill-img {
+    margin-right: 30px;
+    width: 25%;
+    float: left;
 }
 
 .skill-row {
+    height: 15.625rem;
     width: 50%;
     margin: 100px auto;
+    text-align: left;
+    line-height: 2;
 }
 
 .coffee-row {
-    width: 100%;
-    margin: auto;
-}
-.latte-pic {
-    height: 200px;
-    width: 200px;
-}
-
-.trophy-pic {
-    height: 200px;
-    width: 200px;
-}
-
-.column {
-    float: left;
     width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.coffee-img {
+    margin-left: 30px;
+    width: 25%;
+    float: right;
+}
+
+.latte-pic {
+    height: 25rem;
+    width: 40rem;
     padding: 10px;
 }
 
+.video {
+    margin: 0 30px;
+    height: 50%;
+    width: 25%;
+    float: right;
+}
