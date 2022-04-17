@@ -5,20 +5,27 @@ body {
 }
 
 h1 {
+    color: #66BFBF;
     font-size: 5.625rem;
-    margin-top: 50px;
+    margin: 50px auto 0px auto;
     font-family: 'Sacramento', cursive;
 }
 
 h2 {
+    color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
+    font-weight: normal;
 }
 
 h3 {
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    color: #11999E;
+}
 .top-container {
     background-color: #E4F9F5;
     position: relative;
@@ -50,7 +57,33 @@ h3 {
     width: 300px;
 }
 
-.skills-pic {
+.skill-pic {
     height: 200px;
     width: 200px;
 }
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.coffee-row {
+    width: 100%;
+    margin: auto;
+}
+.latte-pic {
+    height: 200px;
+    width: 200px;
+}
+
+.trophy-pic {
+    height: 200px;
+    width: 200px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
